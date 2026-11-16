@@ -1,0 +1,16 @@
+# Jupyter / Databricks artifacts
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Raw data — never commit source CSVs
+*.csv
+*.csv.gz
+
+# Pipeline / Auto Loader checkpoints
+_checkpoints/
